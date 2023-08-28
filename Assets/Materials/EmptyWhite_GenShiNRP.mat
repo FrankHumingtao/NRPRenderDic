@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: EmptyWhite_GenShiNRP
+  m_Shader: {fileID: 4800000, guid: 3b721e173e41b4e47aa249265f69419a, type: 3}
+  m_ShaderKeywords: SDF_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseTex:
+        m_Texture: {fileID: 2800000, guid: 1fe9bb6f89b536b40bdbb78b04937478, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MapCapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SDFTex:
+        m_Texture: {fileID: 2800000, guid: 4818ee7a6c2a59d44849f91a2982c168, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowRampTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - BODY: 0
+    - SDF: 1
+    - _FresnelScale: 0.5
+    - _Gloss: 20
+    - _LerpMax: 1
+    - _OcclusionDensity: 0.5
+    - _OcclusionRange: 0.15
+    - _OutlineWidth: 0
+    - _RimOffect: 0.005
+    - _ShadowRange: 0.3
+    - _ShadowType: 0.95
+    - _Threshold: 0.5
+    - _testFloat: 1
+    m_Colors:
+    - _OutLineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RimColor: {r: 0.044998176, g: 0.60522586, b: 0.745283, a: 1}
+    - _shadowCol: {r: 0.39631304, g: 0.32210752, b: 0.4528302, a: 1}
+  m_BuildTextureStacks: []
